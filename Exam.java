@@ -13,6 +13,7 @@ public class Exam {
 		exams.add(MakeCameronExam.justDoIt());
 		exams.add(MakeCheExam.justDoIt());
 		/* Add more exams here using the two lines above as a template. */
+                exams.add(MakeChicagoExam.justDoIt());
 
 		while (true) {
 
