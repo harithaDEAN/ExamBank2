@@ -11,7 +11,7 @@ public class Exam {
 		Vector<Exam> exams = new Vector<Exam>();
 		exams.add(MakeFishExam.justDoIt());
 		exams.add(MakeCameronExam.justDoIt());
-		exams.add(MakeCheExam.justDoIt());
+		exams.add(MakeSophiaExam.justDoIt());
 		/* Add more exams here using the two lines above as a template. */
 
 		while (true) {
