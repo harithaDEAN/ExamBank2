@@ -7,7 +7,7 @@ public class MakePulpFictionExam {
 	 
     public static Exam justDoIt() {
         Vector<Question> questions = new Vector<Question>();
-        Exam exam = new Exam("Che Quiz", questions);
+        Exam exam = new Exam("Pulp Fiction Quiz", questions);
         
         {
             Question question = new Question();
@@ -22,12 +22,12 @@ public class MakePulpFictionExam {
         
         {
             Question question = new Question();
-            question.setQuery(("Where was Che killed?"));
-            question.setChoiceA(("Cuba"));
-            question.setChoiceB(("USA"));
-            question.setChoiceC(("Bolivia"));
-            question.setChoiceD(("Argentian"));
-            question.setAnswer(("c"));
+            question.setQuery(("What language do you speak?"));
+            question.setChoiceA(("English"));
+            question.setChoiceB(("Spanish"));
+            question.setChoiceC(("French"));
+            question.setChoiceD(("Chinese"));
+            question.setAnswer(("a"));
             questions.addElement(question);
         }
         return exam;
